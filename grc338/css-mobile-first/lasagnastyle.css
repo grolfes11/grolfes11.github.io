@@ -17,7 +17,7 @@ h1 {
     font-family: Sutro, serif;  
     font-weight: 700;  
     font-style: normal;
-    padding: 2rem 1.7rem 0.5rem;
+    padding: 2rem 2rem 0.5rem;
     color: rgb(240, 240, 240);
     background-color: rgb(230, 147, 65);
 }
@@ -28,7 +28,7 @@ h2 {
     font-weight: 300;  
     font-style: normal;
     color: rgb(253, 225, 197);
-    padding: 0rem 1.7rem 1rem;
+    padding: 0rem 2rem 1rem;
     background-color: rgb(230, 147, 65);
 }
 
@@ -40,25 +40,25 @@ h3 {
     color: rgb(230, 147, 65);
     text-transform: uppercase;
     letter-spacing: 0.07em;
-    padding: 1.5rem 1.7rem 0rem;
+    padding: 1.5rem 2rem 0rem;
 }
 
 figcaption {
     font-family: poppins, sans-serif;
     font-weight: 400;  
     font-style: italic;
-    padding: 0.7rem 1.7rem 0.3rem;
+    padding: 0.7rem 2rem 0.3rem;
 }
 
 ul {
-	margin: 1rem 1.7rem 0.3rem;
+	margin: 1rem 2rem 0.3rem;
     font-family: poppins, sans-serif;  
     font-weight: 400;  
     font-style: normal;
 }
 
 ol {
-    margin: 1rem 1.7rem 3rem;
+    margin: 1rem 2rem 3rem;
     font-family: poppins, sans-serif;  
     font-weight: 400;  
     font-style: normal;
@@ -69,7 +69,7 @@ li {
 }
 
 p {
-    padding: 1.5rem 1.3rem 1.5rem;
+    padding: 1.5rem 2rem 1.5rem;
     background-color: rgb(230, 147, 65);
     color: rgb(240, 240, 240);
     font-family: poppins, sans-serif; 
