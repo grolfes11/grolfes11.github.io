@@ -169,7 +169,7 @@ footer p {
 	.menu ul {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		grid-gap: 2em 1em;
+		grid-gap: 2em 4em;
 	}
 
 }
