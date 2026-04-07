@@ -22,52 +22,48 @@ div.container  {
 	flex-wrap: wrap;
 	margin: auto;
 	max-width: 70em;
+	padding: 1em;
 }
 
 header {
 	flex: 1 0 100%;
-	padding: 0 1em;
 }
 
 article {
 	flex: 2 0 24em;
-	margin-bottom: 1em;
-	padding: 0 1em;
+	margin: 0 1rem 2rem 0;
 }
 
 aside {
 	flex: 1 0 12em;
-	padding: 0 1em;
 }
 
 section {
-	background: #e3e3e3;
-	padding: 0.8rem;
-	margin-bottom: 1.5rem;
+	background: #e6e6e6;
+	padding: 1rem;
+	margin: 0 0 1rem 0;
 }
 
 footer {
 	flex: 1 0 100%;
-	border-top: 1px solid #cccccc;
-	padding: 1.5rem 0.8rem 2rem;
-	margin: 3rem;
+	border-top: 1px solid #a9a9a9;
+	box-sizing: border-box;
+	padding-top: 1rem;
+	margin-top: 1rem;
 }
 
 h3 {
 	font-size: 1.3em;
-	margin: 0;
-	padding: 0 0.8rem 0;
+	margin: 1rem 0 0 0;
 }
 
 aside figure {
 	margin: 0;
-	padding: 0.8rem;
 }
 
 
 aside p {
 	margin: 0;
-	padding: 0.2rem 0.8rem 0;
 }
 
 a {
@@ -77,10 +73,9 @@ a {
 
 ol {
 	padding: 0;
-	margin: 1em 0 2.5em;
+	margin: 1rem 0 2.5rem;
 }
 
 li {
-	margin: 0.8em 0;
+	margin: 0.8rem 0;
 }
-
