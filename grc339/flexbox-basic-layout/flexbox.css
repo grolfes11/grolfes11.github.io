@@ -12,10 +12,13 @@ img {
 	width: 100%;
 	}
 
-figure, p, article {
+figure {
 	margin: 0;
 }
 
+p {
+	margin: 1rem 0;
+}
 
 div.container  {
 	display: flex;
@@ -31,7 +34,7 @@ header {
 
 article {
 	flex: 2 0 24em;
-	margin: 1rem 1rem 2rem 0;
+	margin: 0rem 1rem 2rem 0;
 }
 
 aside {
@@ -50,6 +53,10 @@ footer {
 	box-sizing: border-box;
 	padding-top: 1rem;
 	margin-top: 1rem;
+}
+
+h2 {
+	margin: 2rem 0 0.5rem;
 }
 
 h3 {
