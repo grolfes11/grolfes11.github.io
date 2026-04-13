@@ -20,7 +20,7 @@ section.personal-info ul li {
 }
 
 section ul li label {
-	flex: 0 0 10em;
+	flex: 0 0 8em;
 }
 
 section.personal-info ul li input[type="text"],
