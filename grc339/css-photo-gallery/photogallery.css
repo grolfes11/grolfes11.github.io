@@ -31,7 +31,7 @@ div.container {
 main {
     position: relative;
     overflow: hidden;
-    padding-bottom: calc(66% + 5em); /*56% of width; images: width first, height second, divide 720 by 1280, use that as the ratio */
+    padding-bottom: calc(66% + 5em);
 }
 
 figure{
