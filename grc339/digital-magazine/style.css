@@ -64,15 +64,15 @@ a {
 
 .tertiarystory {
     border-top: 1px solid rgb(86, 116, 157);
-    margin: 1rem 0.5rem;
+    margin: 1rem 0rem;
 }
 
 .tertiarystory h2 {
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 figcaption {
-    margin: 0 0.5rem 1.5rem;
+    margin: 0.2rem 0.5rem 1.5rem;
     font-style: italic;
     color: rgb(99, 99, 99);
 }
@@ -98,6 +98,10 @@ aside figure {
     padding: 0.5rem;
 }
 
+aside .secondarystory h2 {
+    font-size: 1.2em;
+}
+
 @media screen and (min-width: 60em) {
 	nav ul li 	{
 		display: inline;
@@ -106,7 +110,7 @@ aside figure {
         margin-left: 0rem;
 	}
 
-     p, figcaption, h1, h2, .tertiarystory,nav ul li {
+     p, figcaption, h1, h2, .tertiarystory, nav ul li {
         margin-left: 0rem;
         padding-left: 0rem;
     }
