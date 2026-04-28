@@ -85,7 +85,7 @@ figcaption {
 footer {
   width: 100%;
   box-sizing: border-box;
-  padding: 1rem;
+  padding: 0.5rem;
   background: rgb(86, 116, 157);
 }
 
@@ -132,6 +132,10 @@ aside .secondarystory p {
 
     aside .secondarystory h2, aside .secondarystory p {
     margin-left: 0.5rem;
+    }
+
+    footer {
+        padding-left: 0;
     }
 
 }
