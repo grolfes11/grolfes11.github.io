@@ -35,7 +35,7 @@ section.mainstory h2 {
 }
 
 .secondarystory {
-    margin: 1rem 0.5rem 0rem;
+    margin-top: 1rem;
 }
 
 ul {
@@ -73,7 +73,7 @@ a {
 }
 
 .tertiarystory p {
-    padding-left: 0;
+    padding-left: 0rem;
 }
 
 figcaption {
