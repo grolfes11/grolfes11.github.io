@@ -8,7 +8,10 @@ img {
 }
 
 body {
-    font-family: sans-serif; 
+    font-family: "neue-haas-unica", sans-serif; 
+    font-weight: 300;
+    background-color: #f5f5f3;
+
 }
 
 div.container, div.home-container { 
@@ -18,14 +21,14 @@ div.container, div.home-container {
 
 h1 {
 	width: 9em;
-    font-family: serif;
     margin: 1rem 0.5rem;
 }
 
 h2 {
     font-size: 2em;
-    font-family: serif;
-    color: rgb(86, 116, 157);
+    font-family: "optima-lt-pro", serif;
+    line-height: 1.2em;
+    color: rgb(43, 69, 112);
     font-weight: 700;
     margin: 0.2rem 0.5rem 0.2rem;
 }
@@ -50,11 +53,11 @@ ul li 	{
 
 ul li a {
     text-decoration: none;
-    color: rgb(86, 116, 157);
+    color: rgb(43, 69, 112);
 }
 
 p {
-    color: rgb(31, 31, 31);
+    color: #1c1c1c;;
     padding: 0.2rem 0.5rem 2rem;
 }
 
@@ -63,13 +66,13 @@ a {
 }
 
 .tertiarystory {
-    border-top: 1px solid rgb(86, 116, 157);
+    border-top: 1px solid rgb(143, 163, 184);
     margin: 1rem 0.5rem;
 }
 
 .tertiarystory h2 {
     font-size: 1.2em;
-    margin: 0;
+    margin-top: 0.2rem;
 }
 
 .tertiarystory p {
@@ -78,24 +81,21 @@ a {
 
 figcaption {
     margin: 0.2rem 0.5rem 1.5rem;
+    font-weight: 300;
     font-style: italic;
-    color: rgb(99, 99, 99);
+    color: rgb(43, 69, 112);
 }
 
 footer {
   width: 100%;
   box-sizing: border-box;
   padding: 0.5rem;
-  background: rgb(86, 116, 157);
+  background: rgb(143, 163, 184);
 }
 
 footer p {
      color: rgb(234, 239, 246);
      padding: 0;
-}
-
-aside {
-    background-color: rgb(232, 203, 244);
 }
 
 aside figure {
@@ -135,9 +135,7 @@ aside .secondarystory p {
     margin-left: 0.5rem;
     }
 
-    footer {
-        padding-left: 0;
-    }
+  
 
 }
 
