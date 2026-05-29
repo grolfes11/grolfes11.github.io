@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" href="https://use.typekit.net/kyl1fcz.css">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <title>Newsletter</title>
+      <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+      <meta http-equiv="Pragma" content="no-cache" />
+      <meta http-equiv="Expires" content="0" />
+   </head>
+   <body>
+      <div class="container">
+         <header>
+            <h1>
+               <a href="index.html"><img src="logo.svg" alt="in between."></a>
+            </h1>
+            <nav>
+               <ul>
+                  <li><a href="#">artists</a></li>
+                  <li><a href="#">newcomers</a></li>
+                  <li><a href="#">reviews</a></li>
+                  <li><a href="#">culture</a></li>
+                  <li><a href="#">playlists</a></li>
+                  <li><a href="newsletter.html">subscribe to our newsletter</a></li>
+               </ul>
+            </nav>
+         </header>
+         <main class="main-newsletter">
+            <form>
+               <section class="personal-info">
+                  <h2>Personal information</h2>
+                  <ul>
+                     <li><label for="name">Name:</label> <input type="text" name="name" id="name" placeholder="full name" /></li>
+                     <li><label for="street-address">Street address:</label> <input type="text" name="street-address" id="street-address" placeholder="street address" /></li>
+                     <li><label for="city">City:</label> <input type="text" name="city" id="city" placeholder="city" /></li>
+                     <li><label for="zip-code">Zip code:</label> <input type="text" name="zip-code" id="zip-code" placeholder="zip code" /></li>
+                     <li><label for="email">Email:</label> <input type="email" name="email" id="email" placeholder="confirmation email" /></li>
+                     <li><label for="phone">Phone number:</label> <input type="tel" name="phone" id="phone" placeholder="phone number" /></li>
+                  </ul>
+               </section>
+               <section class="newsletter-type">
+                  <h2>Newsletter Type</h2>
+                  <p>Which newsletter would you like to subscribe to?</p>
+                  <ul>
+                     <li><input type="checkbox" id="concerts" value="concerts" /> <label for="concerts">Upcoming indie concerts</label></li>
+                     <li><input type="checkbox" id="singer" value="singer" /> <label for="singer">News about singers</label></li>
+                     <li><input type="checkbox" id="playlist" value="playlist" /> <label for="playlist">German indie playlist of the month</label></li>
+                  </ul>
+               </section>
+               <section class="submit-button">
+                  <button type="submit">Submit</button>
+               </section>
+            </form>
+         </main>
+         <footer>
+            <p>All rights reserved.</p>
+         </footer>
+      </div>
+   </body>
+</html>
