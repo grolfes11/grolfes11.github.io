@@ -12,7 +12,6 @@ body {
     font-weight: 300;
     background-color: #f5f5f3;
     box-sizing: border-box;
-
 }
 
 div.container, div.home-container { 
@@ -196,7 +195,7 @@ section.personal-info, section.newsletter-type {
 
 button {
     color: rgb(234, 239, 246);
-    background-color: rgb(43, 69, 112);
+    background-color: rgb(59, 78, 98);
     padding: 1em 2em;
     cursor: pointer;
     border: none;
@@ -332,4 +331,43 @@ button {
         margin: 0;
     }
 
+}
+
+
+@media screen and (prefers-color-scheme: dark) {
+
+    body {
+        background-color: rgb(20, 20, 20);
+    }
+
+    p {
+        color: rgb(234, 239, 246);
+    }
+
+    h1, h2, nav ul li a {
+        color: rgb(163, 192, 223);
+    }
+
+    figcaption {
+        color: rgb(143, 163, 184)
+    }
+
+    div.container aside, footer {
+        background-color: rgb(59, 78, 98);
+    }
+
+    section.personal-info, section.newsletter-type {
+        background-color: rgb(59, 78, 98);
+    }
+
+    h1 {  
+    background-image: url("logo-light.svg");  
+    background-repeat: no-repeat;  
+    background-size: contain;  
+    }  
+
+    h1 img {  
+    opacity: 0;  
+    }  
+ 
 }
