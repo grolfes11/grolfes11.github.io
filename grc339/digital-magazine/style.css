@@ -344,12 +344,12 @@ button {
         color: rgb(234, 239, 246);
     }
 
-    h1, h2, nav ul li a {
+    h2, nav ul li a {
         color: rgb(163, 192, 223);
     }
 
     figcaption {
-        color: rgb(143, 163, 184)
+        color: rgb(143, 163, 184);
     }
 
     div.container aside, footer {
